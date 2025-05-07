@@ -2,7 +2,7 @@
 #include "../src/calcularPreco.h"
 
 MU_TEST(test_preco_crianca) {
-	mu_assert_double_eq(10.00 * 2, calcularPreco(12,3));
+	mu_assert_double_eq(10.00 * 3, calcularPreco(12,3));
 }
 
 MU_TEST(test_preco_idoso) {
